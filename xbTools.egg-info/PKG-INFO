@@ -1,3 +1,32 @@
+Metadata-Version: 2.4
+Name: xbTools
+Version: 1.0.3
+Summary: Toolbox to analyse and setup xbeach models
+Home-page: https://github.com/openearth/xbeach-toolbox
+Author: Menno de Ridder
+Author-email: menno.deridder@deltares.nl
+License: GNU General Public License v3.0
+Requires-Python: >=3.12, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: netCDF4>=1.6.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: geopandas>=0.13.0
+Requires-Dist: shapely>=2.0.0
+Requires-Dist: fiona>=1.9.4.post1
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 [![ReadTheDocs](http://readthedocs.org/projects/xbeach-toolbox/badge/?version=latest)](http://xbeach-toolbox.readthedocs.io/en/latest/)
 [![pytest-py310](https://github.com/openearth/xbeach-toolbox/actions/workflows/pytest-py312.yml/badge.svg?branch=main)](https://github.com/openearth/xbeach-toolbox/actions/workflows/pytest-py312.yml)
 [![pylint](https://github.com/openearth/xbeach-toolbox/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/openearth/xbeach-toolbox/actions/workflows/pylint.yml)
